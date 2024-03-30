@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "blazorsozluk.api.webapi": "StartDebugging",
+        "blazorsozluk.projections.voteservice": "StartDebugging",
+        "blazorsozluk.projections.user": "StartDebugging",
+        "blazorsozluk.projections.favoriteservice": "StartDebugging",
+        "blazorsozluk.webapp": "StartDebugging"
+      }
+    }
+  }
+}
