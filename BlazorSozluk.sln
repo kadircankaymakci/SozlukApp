@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B6305B0-5C8F-4D8E-9ADC-CBAE5A092880}"
+	ProjectSection(SolutionItems) = preProject
+		..\BankApp\README.md = ..\BankApp\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{6E8A8992-B2B0-47CE-8B4C-876A87D0FAE4}"
 EndProject
@@ -38,11 +41,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSozluk.Projections.VoteService", "src\Projections\BlazorSozluk.Projections.VoteService\BlazorSozluk.Projections.VoteService.csproj", "{933CA683-8A04-46E4-8C57-6983CBD07408}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSozluk.WebApp", "src\Clients\BlazorWeb\BlazorSozluk.WebApp\BlazorSozluk.WebApp.csproj", "{04E83426-7115-4F4B-97EA-A5E9FDF4EBBD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{CB3BD5D7-2A08-47D7-86FB-5FB75C359F51}"
-	ProjectSection(SolutionItems) = preProject
-		DockerComposeSteps.txt = DockerComposeSteps.txt
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
